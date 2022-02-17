@@ -31,9 +31,10 @@ namespace ExercisesOOP_S2W5
                     break;
                 case 3:
                     Console.Write("How many integers do you want to sum? ");
-                    //int numberIntegers = Convert.ToInt32(Console.ReadLine());
-                    //int[] arrayIntegers = new Array ( numberIntegers ) ;
-                    //SumOfIntegers.Sum(numberIntegers);
+                    int numberIntegers = Convert.ToInt32(Console.ReadLine());
+                    int[] arrayIntegers = new int [numberIntegers];
+                    //add the user integers to the array 
+                    SumOfIntegers.Sum(arrayIntegers);
                     break;
             }
         }
