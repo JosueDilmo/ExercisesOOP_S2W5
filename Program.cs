@@ -1,5 +1,6 @@
 ﻿using ExercisesOOP_S2W5.Question1;
 using ExercisesOOP_S2W5.Question2;
+using ExercisesOOP_S2W5.Question3;
 using System;
 
 namespace ExercisesOOP_S2W5
@@ -26,9 +27,13 @@ namespace ExercisesOOP_S2W5
                     Console.Write("Please, introduce integer: ");
                     double userPowerNumber = Convert.ToDouble(Console.ReadLine());
                     SquareAndCube powerNumber = new();
-                    powerNumber.cube(userPowerNumber);
+                    powerNumber.Cube(userPowerNumber);
                     break;
                 case 3:
+                    Console.Write("How many integers do you want to sum? ");
+                    //int numberIntegers = Convert.ToInt32(Console.ReadLine());
+                    //int[] arrayIntegers = new Array ( numberIntegers ) ;
+                    //SumOfIntegers.Sum(numberIntegers);
                     break;
             }
         }
